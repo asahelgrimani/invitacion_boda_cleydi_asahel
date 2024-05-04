@@ -1,0 +1,26 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>3025143-ai</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: none;stroke: #ad8955;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<g id="OBJECTS">
+		<g id="&lt;Group&gt;">
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m13 142.2c0-1.8 1.5-3.3 3.3-3.3h267.8c1.9 0 3.3 1.5 3.3 3.3v153.1c0 1.9-1.4 3.3-3.3 3.3h-267.8c-1.8 0-3.3-1.4-3.3-3.3z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m33.8 162.9c0-0.9 0.7-1.6 1.6-1.6h45.6c0.9 0 1.7 0.7 1.7 1.6v29.7c0 1-0.8 1.7-1.7 1.7h-45.6c-0.9 0-1.6-0.7-1.6-1.7z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m150.2 274c-27.9 0-50.5-22.6-50.5-50.5 0-28 22.6-50.6 50.5-50.6 28 0 50.6 22.6 50.6 50.6 0 27.9-22.6 50.5-50.6 50.5z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m150.2 259.8c-20 0-36.3-16.2-36.3-36.3 0-20.1 16.3-36.3 36.3-36.3 20.1 0 36.3 16.2 36.3 36.3 0 20.1-16.2 36.3-36.3 36.3z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m209.7 138.9h-119l9.4-24h100.2z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m259.4 138.9h-24v-12c0-6.6 5.4-12 12-12 6.6 0 12 5.4 12 12z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m93.3 46.8c0-1.4 1.1-2.5 2.5-2.5h108.9c1.3 0 2.4 1.1 2.4 2.5v50.3c0 1.4-1.1 2.5-2.4 2.5h-108.9c-1.4 0-2.5-1.1-2.5-2.5z"/>
+				<path id="&lt;Path&gt;" class="s0" d="m93.3 74.5h17.3l13.4-10.1 13.5 10.3 13.2-10 13 9.8 13.5-10.2 12.6 9.5h17.3"/>
+			</g>
+			<g id="&lt;Group&gt;">
+				<path id="&lt;Path&gt;" class="s0" d="m47.8 66.3l24 1"/>
+				<path id="&lt;Path&gt;" class="s0" d="m51.3 26.5l24.1 14.5"/>
+				<path id="&lt;Path&gt;" class="s0" d="m81.8 2l12.1 20.7"/>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #1F3866;
+    font-family: 'Montserrat';
+    font-weight: medium;
+    text-align: center;
+}
+
+body {
+    background-color: #FFFFF0;
+}
+
+h2 {
+    width: fit-content;
+    font-family: 'Dancing Script';
+    font-size: 68px;
+}
+
+#nombre_novio {
+    text-indent: 1em;
+    margin-bottom: 16px;
+}
+
+.contenedor > * {
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor {
+    padding: 0 4%;
+}
+
+#portada {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#flores_esquina_si {
+    position: absolute;
+    width: 67%;
+    max-width: 720px;
+    top: 0;
+    left: 0;
+}
+
+#flores_esquina_id {
+    position: absolute;
+    width: 67%;
+    max-width: 720px;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.icons {
+    width: 100px;
+    margin-bottom: 26px;
+}
+
+blockquote {
+    max-width: 390px;
+}
+
+.t-14 {
+    font-size: 14px;
+}
+
+@media (min-width: 800px) {
+    h2 {
+        font-size: 100px;
+    }
+
+    .icons {
+        width: 160px;
+    }
+
+    .t-14 {
+        font-size: 16px;
+    }
+}
+
+@media (max-height: 800px) {
+    #flores_esquina_si {
+        width: 50%;
+    }
+    
+    #flores_esquina_id {
+        width: 50%;
+    }
+}
+
+@media (max-height: 550px) {
+    #flores_esquina_si {
+        width: 40%;
+    }
+    
+    #flores_esquina_id {
+        width: 40%;
+    }
+}
+
+@media (max-height: 450px) {
+    #flores_esquina_si {
+        width: 30%;
+    }
+    
+    #flores_esquina_id {
+        width: 30%;
+    }
+    
+    blockquote {
+        max-width: 300px;
+    }
+
+    .t-14 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 68px;
+    }
+}
+
+@media (max-height: 300px) {
+    h2 {
+        font-size: 50px;
+    }
+
+    #nombre_novio {
+        margin-bottom: 10px;
+    }
+
+    .icons {
+        margin-bottom: 16px;
+    }
+}
+
+#padres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#padres > div {
+    display: inline-block;
+}
+
+#padres > .separador {
+    width: 2px;
+    height: 60px;
+    background-color: #1F3866;
+    margin: 0 10px;
+}
+
+.t-12 {
+    font-size: 10px;
+}
+
+#pad-novia > p {
+    text-align: right;
+}
+
+#pad-novio > p {
+    text-align: left;
+}
