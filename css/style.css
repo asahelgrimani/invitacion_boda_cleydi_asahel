@@ -31,7 +31,7 @@ h2 {
 }
 
 .contenedor {
-    padding: 0 4%;
+    padding: 0 6%;
 }
 
 #portada {
@@ -142,6 +142,21 @@ blockquote {
     }
 }
 
+#info-event {
+    background-color: lightblue;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: relative;
+}
+
+#flores_esquina_2 {
+    position: absolute;
+    width: 180px;
+    top: 0;
+    left: -60px;
+    transform: rotate(180deg);
+}
+
 #padres {
     display: flex;
     flex-direction: row;
@@ -149,19 +164,15 @@ blockquote {
     align-items: center;
 }
 
-#padres > div {
-    display: inline-block;
-}
-
-#padres > .separador {
+.separador {
     width: 2px;
     height: 60px;
     background-color: #1F3866;
     margin: 0 10px;
 }
 
-.t-12 {
-    font-size: 10px;
+.t-small {
+    font-size: 12px;
 }
 
 #pad-novia > p {
@@ -170,4 +181,72 @@ blockquote {
 
 #pad-novio > p {
     text-align: left;
+}
+
+.nom-nov {
+    margin-bottom: 6px;
+}
+
+#tit-inv {
+    margin: 26px 0px;
+}
+
+#tit-inv > h3 {
+    font-size: 16px;
+}
+
+#tit-inv > h3:first-child {
+    margin: 8px 0px;
+}
+
+#fecha {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#fecha > p {
+    padding: 8px 0px;
+}
+
+#nom-dia {
+    text-align: right;
+}
+
+#nom-mes {
+    text-align: left;
+}
+
+#num-dia {
+    font-size: 36px;
+    line-height: 23px;
+}
+
+.dia-mes {
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #1F3866;
+}
+
+@media (max-width: 360px) {
+    #padres {
+        flex-direction: column;
+    }
+
+    .separador {
+        width: 200px;
+        height: 2px;
+        background-color: #1F3866;
+        margin: 10px 0px;
+    }
+
+    #pad-novia > p {
+        text-align: center;
+    }
+    
+    #pad-novio > p {
+        text-align: center;
+    }
 }
