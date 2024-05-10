@@ -17,7 +17,7 @@ body {
 h2 {
     width: fit-content;
     font-family: 'Dancing Script';
-    font-size: 68px;
+    font-size: 64px;
 }
 
 #nombre_novio {
@@ -44,7 +44,7 @@ h2 {
 
 #flores_esquina_si {
     position: absolute;
-    width: 67%;
+    width: 230px;
     max-width: 720px;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ h2 {
 
 #flores_esquina_id {
     position: absolute;
-    width: 67%;
+    width: 230px;
     max-width: 720px;
     bottom: 0;
     right: 0;
@@ -68,12 +68,7 @@ blockquote {
     max-width: 390px;
 }
 
-.t-14 {
-    font-size: 14px;
-}
-
 #info-event {
-    background-color: lightblue;
     padding-top: 64px;
     padding-bottom: 64px;
     position: relative;
@@ -101,7 +96,15 @@ blockquote {
     margin: 0 10px;
 }
 
+.t-medium {
+    font-size: 16px;
+}
+
 .t-small {
+    font-size: 14px;
+}
+
+.t-tsmall {
     font-size: 12px;
 }
 
@@ -130,11 +133,11 @@ blockquote {
 }
 
 #fecha {
-    background-color: lightcoral;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
 }
 
 #fecha > p {
@@ -142,22 +145,57 @@ blockquote {
 }
 
 #nom-dia {
+    width: 96px;
     text-align: right;
 }
 
 #nom-mes {
+    width: 96px;
     text-align: left;
 }
 
 #num-dia {
     font-size: 36px;
     line-height: 23px;
+    margin: 0 16px;
 }
 
 .dia-mes {
     border-width: 2px 0px;
     border-style: solid;
     border-color: #1F3866;
+}
+
+#ubic > #tit-ubic {
+    margin-bottom: 10px;
+}
+
+#ubic > #direcc {
+    margin-bottom: 10px;
+}
+
+#ubic > button {
+    padding: 6px 36px;
+    color: #FFFFF0;
+    background-color: #1F3866;
+    border: none;
+    border-radius: 16px;
+}
+
+.ubic-separador {
+    background-color: #1F3866;
+    width: 230px;
+    height: 2px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+#flores_marco {
+    position: absolute;
+    top: 400px;
+    left: -60px;
+    transform: rotate(90deg);
+    width: 150px;
 }
 
 @media (max-width: 500px) {
