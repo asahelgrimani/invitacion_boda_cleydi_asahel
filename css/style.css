@@ -72,76 +72,6 @@ blockquote {
     font-size: 14px;
 }
 
-@media (min-width: 800px) {
-    h2 {
-        font-size: 100px;
-    }
-
-    .icons {
-        width: 160px;
-    }
-
-    .t-14 {
-        font-size: 16px;
-    }
-}
-
-@media (max-height: 800px) {
-    #flores_esquina_si {
-        width: 50%;
-    }
-    
-    #flores_esquina_id {
-        width: 50%;
-    }
-}
-
-@media (max-height: 550px) {
-    #flores_esquina_si {
-        width: 40%;
-    }
-    
-    #flores_esquina_id {
-        width: 40%;
-    }
-}
-
-@media (max-height: 450px) {
-    #flores_esquina_si {
-        width: 30%;
-    }
-    
-    #flores_esquina_id {
-        width: 30%;
-    }
-    
-    blockquote {
-        max-width: 300px;
-    }
-
-    .t-14 {
-        font-size: 12px;
-    }
-
-    h2 {
-        font-size: 68px;
-    }
-}
-
-@media (max-height: 300px) {
-    h2 {
-        font-size: 50px;
-    }
-
-    #nombre_novio {
-        margin-bottom: 10px;
-    }
-
-    .icons {
-        margin-bottom: 16px;
-    }
-}
-
 #info-event {
     background-color: lightblue;
     padding-top: 64px;
@@ -230,7 +160,7 @@ blockquote {
     border-color: #1F3866;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     #padres {
         flex-direction: column;
     }
