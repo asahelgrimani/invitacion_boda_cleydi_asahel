@@ -198,6 +198,7 @@ blockquote {
     height: 2px;
     margin: auto;
     margin-top: 36px;
+    margin-bottom: 36px;
 }
 
 #flores_marco {
@@ -206,6 +207,17 @@ blockquote {
     left: -60px;
     transform: rotate(90deg);
     width: 150px;
+}
+
+#cronograma {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#cronograma > div:nth-of-type(1),
+#cronograma >div:nth-of-type(2) {
+    margin-bottom: 42px;
 }
 
 @media (max-width: 500px) {
@@ -237,4 +249,19 @@ blockquote {
     #ubic {
         margin-left: 26px;
     }
+
+    #cronograma {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #cronograma > div {
+       width: 180px;
+    }
+
+    #cronograma > div:nth-of-type(1),
+    #cronograma >div:nth-of-type(2) {
+        margin-bottom: 0;
+    }
+
 }
