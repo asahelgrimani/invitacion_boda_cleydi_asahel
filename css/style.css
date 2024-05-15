@@ -126,10 +126,19 @@ blockquote {
 
 #tit-inv > h3 {
     font-size: 16px;
+    max-width: 400px;
+    margin: auto;
 }
 
 #tit-inv > h3:first-child {
-    margin: 8px 0px;
+    margin: 8px auto;
+}
+
+#flex-fec-ubic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #fecha {
@@ -172,6 +181,7 @@ blockquote {
 
 #ubic > #direcc {
     margin-bottom: 10px;
+    max-width: 320px;
 }
 
 #ubic > button {
@@ -216,5 +226,15 @@ blockquote {
     
     #pad-novio > p {
         text-align: center;
+    }
+}
+
+@media (min-width: 500px) {
+    #flex-fec-ubic {
+        flex-direction: row;
+    }
+
+    #ubic {
+        margin-left: 26px;
     }
 }
