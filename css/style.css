@@ -45,7 +45,6 @@ h2 {
 #flores_esquina_si {
     position: absolute;
     width: 230px;
-    max-width: 720px;
     top: 0;
     left: 0;
 }
@@ -53,7 +52,6 @@ h2 {
 #flores_esquina_id {
     position: absolute;
     width: 230px;
-    max-width: 720px;
     bottom: 0;
     right: 0;
     transform: rotate(180deg);
@@ -65,7 +63,7 @@ h2 {
 }
 
 blockquote {
-    max-width: 390px;
+    max-width: 450px;
 }
 
 #info-event {
@@ -253,6 +251,62 @@ blockquote {
     margin-top: 96px;
 }
 
+#invitados {
+    padding: 36px 26px;
+    background-color: #1F3866;
+    border-radius: 0 40px;
+    max-width: 500px;
+    margin: auto;
+}
+
+#invitados > p {
+    color: #FFFFF0;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+#inv-advertencias > p {
+    color: #FFFFF0;
+    font-size: 10px;
+    margin: auto;
+}
+
+#inv-advertencias > p:first-child {
+    margin-bottom: 10px;
+}
+
+#inv-advertencias > p > b {
+    color: #FFFFF0;
+}
+
+/* #inv-nom  {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+} */
+
+#inv-nom {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#inv-nom > p {
+    color: #FFFFF0;
+    margin: 5px 13px;
+}
+
+.inv-separador {
+    background-color: #FFFFF0;
+    width: 230px;
+    height: 2px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 @media (max-width: 500px) {
     #padres {
         flex-direction: column;
@@ -297,4 +351,28 @@ blockquote {
         margin-bottom: 0;
     }
 
+}
+
+@media (min-width: 700px) {
+    #flores_esquina_si {
+        width: 480px;
+    }
+    
+    #flores_esquina_id {
+        width: 480px;
+    }
+    
+    h2 {
+        font-size: 128px;
+    }
+
+    .icons {
+        width: 240px;
+        margin-bottom: 32px;
+    }
+
+    #nombre_novio {
+        margin-bottom: 32px;
+    }
+    
 }
