@@ -220,6 +220,33 @@ blockquote {
     margin-bottom: 42px;
 }
 
+#regalos {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+#yape-plin {
+    margin-bottom: 16px;
+}
+
+#yape-plin > img:first-child {
+    margin-right: 36px;
+}
+
+#regalo-mensaje {
+    margin-top: 16px;
+    margin-bottom: 36px;
+    max-width: 500px;
+}
+
+#num-yape-plin {
+    margin-bottom: 36px;
+}
+
+#num-int-bcp {
+    margin-top: 16px;
+}
+
 @media (max-width: 500px) {
     #padres {
         flex-direction: column;
