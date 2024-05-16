@@ -247,6 +247,12 @@ blockquote {
     margin-top: 16px;
 }
 
+#footer {
+    height: 100px;
+    background-color: #1F3866;
+    margin-top: 96px;
+}
+
 @media (max-width: 500px) {
     #padres {
         flex-direction: column;
