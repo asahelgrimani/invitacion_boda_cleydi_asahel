@@ -10,6 +10,14 @@
     text-align: center;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
 body {
     background-color: #FFFFF0;
 }
@@ -35,8 +43,7 @@ h2 {
 }
 
 #portada {
-    
-    height: 100dvh;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,14 +51,14 @@ h2 {
 
 #flores_esquina_si {
     position: absolute;
-    width: 230px;
+    width: 220px;
     top: 0;
     left: 0;
 }
 
 #flores_esquina_id {
     position: absolute;
-    width: 230px;
+    width: 220px;
     bottom: 0;
     right: 0;
     transform: rotate(180deg);
@@ -213,14 +220,26 @@ blockquote {
     flex-direction: column;
 }
 
+#cronograma > div > img {
+    width: 100px;
+}
+
 #cronograma > div:nth-of-type(1),
 #cronograma >div:nth-of-type(2) {
     margin-bottom: 42px;
 }
 
 #regalos {
-    padding-top: 64px;
+    padding-top: 38px;
     padding-bottom: 64px;
+}
+
+#regalos > img {
+    width: 100px;
+}
+
+#yape-plin > img {
+    width: 60px;
 }
 
 #yape-plin {
@@ -231,10 +250,29 @@ blockquote {
     margin-right: 36px;
 }
 
-#regalo-mensaje {
+#regalo-mensaje-fisico {
     margin-top: 16px;
-    margin-bottom: 36px;
     max-width: 500px;
+}
+
+#direc-regalo {
+    margin-top: 16px;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+#regalo-mensaje-transf {
+    margin-bottom: 26px;
+    max-width: 500px;
+}
+
+#regalos > button {
+    padding: 6px 36px;
+    color: #FFFFF0;
+    background-color: #1F3866;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 36px;
 }
 
 #num-yape-plin {
@@ -307,6 +345,22 @@ blockquote {
     margin-bottom: 16px;
 }
 
+#vestimenta > div {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #e7e7d5;
+    border-radius: 40px;
+    padding: 16px 26px;
+    margin: 24px auto;
+}
+
+#vestimenta > div > img {
+    height: 200px;
+}
+
 @media (max-width: 500px) {
     #padres {
         flex-direction: column;
@@ -361,7 +415,18 @@ blockquote {
     #flores_esquina_id {
         width: 480px;
     }
+
+    #flores_esquina_2 {
+        width: 350px;
+        left: -140px;
+    }
     
+    #flores_marco {
+        width: 350px;
+        top: 600px;
+        left: -150px;
+    }
+
     h2 {
         font-size: 128px;
     }
@@ -375,4 +440,16 @@ blockquote {
         margin-bottom: 32px;
     }
     
+}
+
+@media (min-width: 1000px) {
+    #flores_esquina_2 {
+        left: -60px;
+    }
+
+    #flores_marco {
+        width: 450px;
+        top: 600px;
+        left: -200px;
+    }
 }
