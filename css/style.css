@@ -189,12 +189,14 @@ blockquote {
     max-width: 320px;
 }
 
-#ubic > button {
+#btn-direc-gm,
+#btn-direc-wz {
     padding: 6px 36px;
     color: #FFFFF0;
     background-color: #1F3866;
     border: none;
     border-radius: 16px;
+    margin-bottom: 10px;
 }
 
 .ubic-separador {
@@ -252,12 +254,11 @@ blockquote {
 
 #regalo-mensaje-fisico {
     margin-top: 16px;
+    margin-bottom: 16px;
     max-width: 500px;
 }
 
-#direc-regalo {
-    margin-top: 16px;
-    margin-bottom: 10px;
+.direc-regalo {
     max-width: 500px;
 }
 
@@ -268,10 +269,18 @@ blockquote {
 
 #regalos > button {
     padding: 6px 36px;
-    color: #FFFFF0;
-    background-color: #1F3866;
-    border: none;
+    color: #1F3866;
+    background: none;
+    border: 2px solid #1F3866;
     border-radius: 16px;
+    margin-top: 10px;
+}
+
+#btn-direc-reg-1 {
+    margin-bottom: 16px;
+}
+
+#btn-direc-reg-2 {
     margin-bottom: 36px;
 }
 
@@ -380,6 +389,7 @@ blockquote {
     #pad-novio > p {
         text-align: center;
     }
+
 }
 
 @media (min-width: 500px) {

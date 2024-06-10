@@ -108,3 +108,30 @@ const id = getQueryVariable();
 if (id in inv_list) {
     print_name_elements(id);
 }
+
+document.getElementById('btn-direc-reg-1').addEventListener('click', function() {
+    window.open('https://maps.app.goo.gl/ukmX7KutZb9aRnHz8');
+});
+
+document.getElementById('btn-direc-reg-2').addEventListener('click', function() {
+    window.open('https://maps.app.goo.gl/188xL7gtbBuKZtzA7');
+});
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    document.getElementById('btn-direc-gm').addEventListener('click', function() {
+        window.location.href = 'https://www.google.com/maps/dir/?api=1&destination=-11.865518,-77.035988';
+    });
+    
+    document.getElementById('btn-direc-wz').addEventListener('click', function() {
+        window.location.href = 'waze://?ll=-11.865518,-77.035988&navigate=yes';
+    });
+} else {
+    //document.getElementById("btn-direc-wz").remove();
+    
+    const btn_direc = document.getElementById("btn-direc-gm");
+
+    btn_direc.innerHTML = "ABRIR MAPA";
+    btn_direc.addEventListener('click', function() {
+        window.open('https://maps.app.goo.gl/KtbnXfRcDnNfBNPb7');
+    });
+}
