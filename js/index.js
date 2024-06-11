@@ -126,7 +126,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         window.location.href = 'waze://?ll=-11.865518,-77.035988&navigate=yes';
     });
 } else {
-    //document.getElementById("btn-direc-wz").remove();
+    document.getElementById("btn-direc-wz").remove();
     
     const btn_direc = document.getElementById("btn-direc-gm");
 
