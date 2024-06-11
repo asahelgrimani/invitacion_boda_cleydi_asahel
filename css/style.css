@@ -180,8 +180,13 @@ blockquote {
     border-color: #1F3866;
 }
 
+#tit-ubic-ruta,
 #ubic > #tit-ubic {
     margin-bottom: 10px;
+}
+
+#tit-ubic-ruta {
+    margin-top: 16px;
 }
 
 #ubic > #direcc {
@@ -189,6 +194,7 @@ blockquote {
     max-width: 320px;
 }
 
+#btn-direc,
 #btn-direc-gm,
 #btn-direc-wz {
     padding: 6px 36px;
@@ -199,12 +205,16 @@ blockquote {
     margin-bottom: 10px;
 }
 
+#btn-direc {
+    margin-bottom: 0px;
+}
+
 .ubic-separador {
     background-color: #1F3866;
     width: 230px;
     height: 2px;
     margin: auto;
-    margin-top: 36px;
+    margin-top: 26px;
     margin-bottom: 36px;
 }
 
@@ -269,9 +279,9 @@ blockquote {
 
 #regalos > button {
     padding: 6px 36px;
-    color: #1F3866;
-    background: none;
-    border: 2px solid #1F3866;
+    color: #FFFFF0;
+    background-color: #1F3866;
+    border: none;
     border-radius: 16px;
     margin-top: 10px;
 }
