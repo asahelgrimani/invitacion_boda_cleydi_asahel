@@ -380,6 +380,17 @@ blockquote {
     height: 200px;
 }
 
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer > p {
+    color: #FFFFF0;
+    font-size: 12px;
+}
+
 @media (max-width: 500px) {
     #padres {
         flex-direction: column;
