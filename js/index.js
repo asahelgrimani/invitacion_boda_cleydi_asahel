@@ -143,3 +143,18 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         window.open('https://maps.app.goo.gl/KtbnXfRcDnNfBNPb7');
     });
 }
+
+export function print_inv_list_csv_f_l() {
+    let csv_format = "";
+
+    for (const key in inv_list) {
+        if (inv_list.hasOwnProperty(key)) {
+            const elements = inv_list[key];
+            csv_format += `${key},${elements.join(',')}\n`;
+        }
+    }
+
+    console.log(csv_format);
+}
+
+window.print_inv_list_csv_f = print_inv_list_csv_f_l;
