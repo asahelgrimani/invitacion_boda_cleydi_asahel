@@ -324,12 +324,13 @@ blockquote {
 
 #inv-advertencias > p {
     color: #FFFFF0;
-    font-size: 10px;
+    font-size: 12px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
-#inv-advertencias > p:first-child {
-    margin-bottom: 10px;
+#inv-advertencias > p:last-child{
+    margin-bottom: 0px;
 }
 
 #inv-advertencias > p > b {
