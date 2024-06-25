@@ -33,14 +33,13 @@ const inv_list = {
     '305841':['TOMAS AGUILAR','MARIA AGUILAR'],
     '327337':['HERIBERTO AGUILAR','VERONICA LAZARO','HADY AGUILAR'],
     '338873':['MAURA AGUILAR','MARCELINO','SAMIR AGUILAR'],
-    '355997':['NANCY AGUILAR','FRANK AGUILAR'],
+    '355997':['NANCY AGUILAR','MISAEL QUISPE'],
     '360724':['ESPERANZA AGUILAR','RENE SORIA','CIELO SORIA'],
     '377850':['CESAR AGUILAR','MELINA AGUILAR','ELIOT','KATRINA'],
     '406363':['WILDER AGUILAR'],
     '451151':['LUCIA AGUILAR'],
     '464963':['TOMAS AGUILAR','GLORIA AGUILAR'],
     '468287':['MARINO','JOSELINE'],
-    '474780':['LUIS'],
     '477592':['ERIK AGUILAR'],
     '488525':['VICENTE','VICTORIA','ROGER','MYRA','KELLY'],
     '519116':['MARUJA ','ELMER'],
@@ -100,12 +99,20 @@ function print_name_elements(id) {
     
         inv_nom_e.appendChild(p_element);
     }
+    
+}
+
+function print_cant_inv(id) {
+    const cant_inv = document.getElementById('num-inv');
+    cant_inv.innerHTML = inv_list[id].length + ' PASE(S)'
+
 }
 
 const id = getQueryVariable();
 
 if (id in inv_list) {
     print_name_elements(id);
+    print_cant_inv(id);
 }
 
 document.getElementById('btn-direc-reg-1').addEventListener('click', function() {

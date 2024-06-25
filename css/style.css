@@ -322,6 +322,12 @@ blockquote {
     margin-bottom: 16px;
 }
 
+#invitados > #num-inv {
+    color: #FFFFF0;
+    font-size: 16px;
+    margin-top: 13px;
+}
+
 #inv-advertencias > p {
     color: #FFFFF0;
     font-size: 12px;
