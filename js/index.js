@@ -74,7 +74,8 @@ const inv_list = {
     '694869':['MAURA AGUILAR','SAMIR AGUILAR'],
     '285938':['CYNTHIA VEGA','PERCY'],
     '285288':['ANDRES'],
-    '356858':['FRANCISCO QUISPE','TERESA QUISPE']
+    '356858':['FRANCISCO QUISPE','TERESA QUISPE'],
+    '769348':['JUNIOR CHIARA']
 };
 
 function getQueryVariable() {
