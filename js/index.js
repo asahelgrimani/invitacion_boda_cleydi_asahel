@@ -78,7 +78,8 @@ const inv_list = {
     '297845':['JUNOT ARELLAN'],
     '436515':['LUIS BANCES'],
     '386748':['JOSELYN'],
-    '438574':['ALICIA']
+    '438574':['ALICIA'],
+    '708654':['KEVIN JIMENEZ']
 };
 
 function getQueryVariable() {
